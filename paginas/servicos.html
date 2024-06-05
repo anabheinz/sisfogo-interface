@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./script.js" defer></script>
+
+    <link rel="stylesheet" type="text/css" href="../styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@500&family=Markazi+Text:wght@400..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Khand:wght@300;400;500;600;700&family=Kiwi+Maru:wght@500&family=Markazi+Text:wght@400..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="custom.css"> 
+
+    <title>Serviços</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+ 
+  </head>
+  
+  <body style="background-color: #FFF8DF;">
+    
+
+<!-- MENU -->
+
+<div id="menu"> 
+  <nav class="navbar navbar-expand-lg p-3" style="background-color: #FFF8DF;">
+
+    <div class="container-fluid">
+      
+      <div class="d-flex justify-content-start align-content-center">
+          <img class="me-2" src="../imagens/ibama.png" width="45px" height="45px" alt="logo-ibama" title="logo-ibama">
+          <img class="me-2" src="../imagens/labareda.png" width="50px" height="45px" alt="logo-prevfogo" title="logo-prevfogo">
+          <span class="m-0 ms-3 align-self-center" id="menu-sisfogo-titulo">Sisfogo</span>
+
+      </div>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button><td></td>
+
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="../index.html">INÍCIO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="./sobre.html">SOBRE</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./portfolio.html">PORTFÓLIO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./servicos.html">SERVIÇOS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./equipe.html">EQUIPE</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link me-4" href="./contato.html" aria-disabled="true">CONTATO</a>
+          </li>
+        </ul>
+
+        
+          <div class="btn-AcessoInterno">
+            <a href="./acesso_interno.html" style="text-decoration: none; color: inherit"><button class="btn rounded-pill ms-4 me-4" type="submit"><b>Acesso Interno</b></button></a>
+          </div>
+
+      </div>
+
+    </div>
+
+  </nav>
+</div> 
+
+
+    <!-- CONTEÚDO -->
+
+
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-inner">
+          <div class="carousel-item active">
+              <div class="container-fluid p-0 position-relative">
+                  <div class="row">
+                      <div class="col-md-12 central-image position-relative">
+                          <img src="../imagens/operacao-area.jpg" alt="Imagem Central" class="img-fluid">
+                          <div class="text-inside-image position-absolute bottom-0 start-1">
+                              <h5 class="m-0 pb-0 ps-5" id="texto-inferior-servico">SERVIÇOS</h5>
+                              <p class="m-0 pb-5 ps-5 ms-4" id="texto-servico">O que faz o Sisfogo</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  
+
+
+  <div class="row d-flex align-items-center" style="background-color: #F1E3B1;">
+        <div class="col  text-center p-5" id="texto-inicio-servico">SISTEMA REFERÊNCIA  PARA  O GERENCIAMENTO DE INFORMAÇÃO SOBRE O FOGO</div>
+        <div class="col  text-center p-5" id="texto-inicio-direita-servico"></p>O Sisfogo tem por intuito agregar informações quantitativas e qualitativas de diversos sistemas, auxiliando na identificação e gestão nacional de ocorrências de incêndios. Além disso, reúne dados de outras entidades na área, enriquecendo o debate sobre plataformas de monitoramento de incêndios no Brasil.</p></div>
+  </div>
+
+  <br>
+
+  <div class="row d-flex align-items-center" style="background-color: #F1E3B1;">
+      <div class="col text-center mt-5" id="box-servico-titulo">SERVIÇOS</div>
+      <div class="w-100"></div>
+      <div class="col text-center mt-3 mb-5" id="box-servico-subtitulo">Conheça mais sobre as informações em que a Sisfogo abarca.</div>
+  </div>
+
+  <div class="row" style="background-color: #F1E3B1;">
+      <div class="col text-center m-5">
+        <p class="d-flex justify-content-center" id="servicos-titulo">PLANEJAMENTO</p>
+        <img class="ms-2" src="../imagens/svg/planejamento_icone.svg" alt="Ícone-planejamento">
+        <p class="m-3 d-flex justify-content-center" id="servicos-descricao">Atividades Planejadas: Educação ambiental, Recuperação de áreas degradadas, Uso do Fogo</p>
+  </div>
+  
+  <div class="col text-center m-5 ">
+        <p class="d-flex justify-content-center" id="servicos-titulo">EXECUÇÃO</p>
+        <img class="ms-2" src="../imagens/svg/execucao_icone.svg" alt="Ícone-execução">
+        <p class="m-3 d-flex justify-content-center" id="servicos-descricao">Atividades executadas: Educação ambiental, Recuperação de áreas degradadas, Uso do fogo, Lavra ROIs</p>
+  </div>
+
+  <div class="col text-center m-5 ">
+        <p class="d-flex justify-content-center" id="servicos-titulo">LOGÍSTICA</p>
+        <img class="ms-2" src="../imagens/svg/logistica_icone.svg" width="85.33px" alt="Ícone-logística">
+        <p class="m-3 d-flex justify-content-center" id="servicos-descricao">Almoxarifado / Equipamentos e Veículos</p>
+  </div>
+
+  <div class="col text-center m-5 ">
+        <p class="d-flex justify-content-center" id="servicos-titulo">AUTORIZAÇÕES</p>
+        <img class="ms-2" src="../imagens/svg/autorizacao_icone-1.svg" width="90px" alt="Ícone-autorização">
+        <img class="mt-5" src="../imagens/svg/autorizacao_icone-2.svg" alt="Ícone-autorização">
+        <p class="m-3 d-flex justify-content-center" id="servicos-descricao">Autorização de queima controlada</p>
+  </div>
+
+  </div>
+
+    <div class="row" style="background-color: #F1E3B1;;">
+      <div class="col text-center m-5 ">
+        <p class="d-flex justify-content-center" id="servicos-titulo">MONITORAMENTO</p>
+        <img class="" src="../imagens/svg/monitoramento_icone.svg" alt="Ícone-monitoramento">
+        <p class="m-3 d-flex justify-content-center" id="servicos-descricao">Área queimada Inpe, Alerta de área queimada, Focos de calor, Perigo de fogo, Camadas de geo informação e WebMaps (Mostra ROI)</p>
+    </div>
+
+    <div class="col text-center m-5 ">
+        <p class="d-flex justify-content-center" id="servicos-titulo">ANÁLISE</p>
+        <img class="ms-1" src="../imagens/svg/analise_icone.svg" alt="Ícone-análise">
+        <p class="m-3 d-flex justify-content-center" id="servicos-descricao">Estatísticas diárias sobre áreas
+          queimadas, dashbords.</p>
+    </div>
+
+    <div class="col text-center m-5 ">
+        <p class="d-flex justify-content-center" id="servicos-titulo">E-LEARNING</p>
+        <img class="" src="../imagens/svg/e-learning_icone.svg" alt="Ícone-e-learning">
+        <p class="m-3 d-flex justify-content-center" id="servicos-descricao">Vídeos de treinamento para uso do sistema</p>
+      </div>
+      <div class="col text-center m-5 ">
+        <p class="d-flex justify-content-center" id="servicos-titulo">CIMAN VIRTUAL</p>
+        <img class="" src="../imagens/svg/cian-virtual_icone.svg" alt="Ícone-ciman">
+        <p class="m-3 d-flex justify-content-center" id="servicos-descricao">Informações destinadas para análise e observações voltadas ao Ciman.</p>
+      </div>
+    </div>
+
+    <br>
+
+    <div class="card mb-1 border-0 rounded-0 project-box rec" style="background-color: #FFF8DF; background-image: url('../imagens/combate-aplicativos.jpg'); background-size: cover; background-position: center; width: 100%; height: 406px;"></div>
+
+
+
+
+
+
+<!-- Rodapé -->
+
+<div class="container-fluid" style="background-color: #FFF1C0;">
+
+  <footer class="pt-4 m-0">
+
+    <div class="row d-flex justify-content-center">
+
+      <div class="col-12 col-md-2 mb-3 text-center">
+
+        <div class="d-flex justify-content-center align-items-center mb-3">
+          <img class="icones me-2" src="../imagens/icones/menu-icone.png" title="icone-menu" alt="icone-menu" height="25px" id="icones-principal"/>
+          <h3 class="mb-0" id="titulos-rodape">MENU</h3>
+        </div>
+
+        <ul class="nav flex-column align-items-center">
+          <li class="nav-item mb-1" id="titulos-menores-rodape"><a href="./sobre.html" class="nav-link p-0 text-dark">Sobre</a></li>
+          <li class="nav-item mb-1" id="titulos-menores-rodape"><a href="./portfolio.html" class="nav-link p-0 text-dark">Portfólio</a></li>
+          <li class="nav-item mb-1" id="titulos-menores-rodape"><a href="./servicos.html" class="nav-link p-0 text-dark">Serviços</a></li>
+          <li class="nav-item mb-1" id="titulos-menores-rodape"><a href="./contato.html" class="nav-link p-0 text-dark">Contato</a></li>
+          <li class="nav-item mb-1" id="titulos-menores-rodape"><a href="./equipe.html" class="nav-link p-0 text-dark">Equipe</a></li>
+        </ul>
+
+      </div>
+
+      <div class="col-12 col-md-2 mb-3 text-center">
+        
+        <div class="d-flex justify-content-center align-items-center mb-3">
+          <img class="me-2" src="../imagens/icones/telefone-icone.png" title="icone-telefone" alt="icone-telefone" height="25px" id="icones-principal"/>
+          <h3 id="titulos-rodape" class="mb-0">CONTATO</h3>
+        </div>
+
+        <ul class="nav flex-column align-items-center">
+          <li class="nav-item mb-2" id="titulos-menores-rodape">
+            <a href="#" class="nav-link p-0 text-dark">
+              Telefone: (61) 3316-1858<br>
+              Endereço: SCEN Trecho 2 - Edifício Sede – L4 Norte CEP: 70818-900 - Brasília - DF<br>
+              E-mail: prevfogo.sede@ibama.gov.br
+            </a>
+          </li>
+        </ul>
+
+      </div>
+
+      <div class="col-12 col-md-2 mb-3 text-center">
+
+        <div class="d-flex justify-content-center align-items-center mb-2">
+          <img class="me-2" src="../imagens/icones/parceria-icone.png" title="icone-parceria" alt="icone-parceria" height="25px" id="icones-principal" />
+          <h3 id="titulos-rodape" class="mb-0">PARCEIROS</h3>
+        </div>
+
+        <ul class="nav flex-column align-items-center">
+          <li class="nav-item mb-1" id="titulos-menores-rodape"><a href="https://www.gov.br/incra/pt-br" class="nav-link p-0 text-dark">INCRA</a></li>
+          <li class="nav-item mb-1" id="titulos-menores-rodape"><a href="https://www.gov.br/icmbio/pt-br" class="nav-link p-0 text-dark">ICMBio</a></li>
+          <li class="nav-item mb-1" id="titulos-menores-rodape"><a href="https://www.gov.br/inpe/pt-br" class="nav-link p-0 text-dark">INPE</a></li>
+          <li class="nav-item mb-1" id="titulos-menores-rodape"><a href="https://www.gov.br/funai/pt-br" class="nav-link p-0 text-dark">FUNAI</a></li>
+        </ul>
+
+      </div>
+
+      <div class="col-12 col-md-2 mb-3 text-center">
+        <div class="d-flex justify-content-center align-items-center mb-1">
+          <h3 class="mt-1" id="titulos-rodape">REDES SOCIAIS</h3>
+        </div>
+
+        <ul class="nav flex-column align-items-center mt-1">
+          <li class="d-flex justify-content-center">
+            <a href="https://www.instagram.com/ibamagov/"><img class="icones me-2 mb-1" id="icone" src="../imagens/svg/icone-instagram.svg" title="icone-instagram" alt="icone-instagram" height="18px" /></a>      
+          </li>
+
+          <li class="d-flex justify-content-center">
+            <a href="https://www.facebook.com/ibama.gov.br/"><img class="icones me-2 mb-1" id="icone" src="../imagens/svg/icone-facebook.svg" title="icone-facebook" alt="icone-facebook" height="18px" /></a>
+          </li>
+
+          <li class="d-flex justify-content-center">
+            <a href="https://web.whatsapp.com/"><img class="icones me-2 mb-1" id="icone" src="../imagens/svg/icone-whatsapp.svg" title="icone-whatsapp" alt="icone-whatsapp" height="18px" /></a>          
+          </li>
+
+          <li class="d-flex justify-content-center">
+            <a href="https://x.com/ibamagov?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img class="icones me-2 mb-1" id="icone" src="../imagens/svg/icone-twitter.svg" title="icone-twitter" alt="icone-twitter" height="18px" /></a>            
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div class="col-12 text-center">
+        <p id="rodape-direitos">&copy; Copyright © - Direitos reservados.</p>
+      </div>
+
+    </div>
+
+  </footer>
+
+</div>
+        
+</body> 
+</html>
